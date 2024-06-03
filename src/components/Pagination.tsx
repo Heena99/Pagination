@@ -65,7 +65,7 @@ const Pagination = () => {
                             key={item.ID}
                             className="bg-gradient-to-r from-blue-50 via-white to-blue-50 shadow-md rounded-lg p-4 mb-4 transition-transform transform hover:scale-105 hover:shadow-lg border-t-4 border-blue-300"
                         >
-                            <div className="flex flex-col md:flex-row md:items-center md:justify-between">
+                            <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-3">
                                 <div className="text-gray-700">
                                     <span className="font-bold text-blue-800">ID: </span>
                                     {item.ID}
